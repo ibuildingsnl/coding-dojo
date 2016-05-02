@@ -5,6 +5,7 @@
         "behat/behat": "^3.1"
     },
     "require": {
+        "beberlei/assert": "^2.5"
     },
     "autoload": {
         "psr-4": {
