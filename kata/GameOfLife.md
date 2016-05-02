@@ -18,11 +18,11 @@ The initial pattern constitutes the 'seed' of the system. The first generation i
 1. Provide an implementation for a grid as described above. You should be able to provide a set of coordinates for the *living cells*. The grid should be able to calculate the next generation grid.
 2. Provide an implementation for a text loader which creates a grid object based on a notation for living cells, like:
 
-> 6x4
-> ...*..
-> ..**..
-> .....*
-> .*....
+        6x4
+        ...*..
+        ..**..
+        .....*
+        .*....
 
 3. Provide an implementation of a file loader, which loads a file containing a text-based pattern like the one described above and creates a grid object based on it.
 4. Provide an implementation of a grid printer, which prints grids and their next generation to the terminal.
