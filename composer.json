@@ -5,11 +5,19 @@
         "behat/behat": "^3.1"
     },
     "require": {
-        "beberlei/assert": "^2.5"
+        "php": "^5.6|^7",
+        "beberlei/assert": "^2.5",
+        "igorw/conway": "dev-master#b1ac6c6b0532601792b8d447e269f8b4b980e0e0"
     },
     "autoload": {
         "psr-4": {
             "CodingDojo\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/igorw/conway-php"
+        }
+    ]
 }
