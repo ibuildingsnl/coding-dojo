@@ -25,5 +25,5 @@ The initial pattern constitutes the 'seed' of the system. The first generation i
         .*....
 
 3. Provide an implementation of a file loader, which loads a file containing a text-based pattern like the one described above and creates a grid object based on it.
-4. Provide an implementation of a grid printer, which prints grids and their next generation to the terminal.
+4. Provide an implementation of a grid printer, which prints the generation to the terminal.
 5. Combine all of the above in a command-line based application which loads the text file provided as the first argument and keeps printing new generations every `n` seconds.

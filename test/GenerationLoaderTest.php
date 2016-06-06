@@ -142,7 +142,6 @@ final class GenerationLoaderTest extends PHPUnit_Framework_TestCase
 
     public function rows_should_only_contain_stars_and_dots()
     {
-
         $this->setExpectedExceptionRegExp('InvalidArgumentException');
 
         GenerationLoader::fromText(
